@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-08-08 Thu 22:18 -->
+<!-- 2019-08-08 Thu 22:25 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Josephine Ankrah</title>
@@ -255,7 +255,7 @@ This is just some text.
 <div class="outline-text-2" id="text-org190f96d">
 
 <div class="figure">
-<p><img src="./pictures/way_u_wear_ur_clothes.png" alt="jorge image" title="Jorge" />
+<p><img src="./pictures/way_u_wear_ur_clothes.png" alt="jorge image" title="Jorge" width="50%" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Me</p>
 </div>
@@ -263,7 +263,7 @@ This is just some text.
 
 
 <div class="figure">
-<p><img src="./pictures/lines/ankles.png" alt="ankles: title ankless" width="50px" />
+<p><img src="./pictures/lines/ankles.png" alt="ankles" width="100%" title="ankless" />
 </p>
 <p><span class="figure-number">Figure 2: </span>ankles</p>
 </div>
@@ -341,7 +341,7 @@ This is just some text.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Josephine Ankrah</p>
-<p class="date">Created: 2019-08-08 Thu 22:18</p>
+<p class="date">Created: 2019-08-08 Thu 22:25</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
