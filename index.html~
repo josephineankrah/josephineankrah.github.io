@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-08-09 Fri 09:53 -->
+<!-- 2019-08-09 Fri 10:23 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Josephine Ankrah</title>
@@ -319,20 +319,116 @@ This is just some text.
 </div>
 
 
-
-
-
 <div id="outline-container-orgf3a482c" class="outline-2">
 <h2 id="orgf3a482c">colors</h2>
 <div class="outline-text-2" id="text-orgf3a482c">
 
 <div class="figure">
-<p><img src="./pictures/way_u_wear_ur_clothes.png" alt="jorge image" title="Jorge" />
+<p><img src="./pictures/colors/bar.png" alt="bar image" width="500" title="bar" />
 </p>
-<p><span class="figure-number">Figure 10: </span>Me</p>
+<p><span class="figure-number">Figure 10: </span>bar</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/dendritic_active.png" alt="active dendritic cell image" width="500" title="active dendritic cell" />
+</p>
+<p><span class="figure-number">Figure 11: </span>active dendritic cell</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/frijoles_con_palabras.png" alt="frijoles con palabras image" width="500" title="frijoles con palabras" />
+</p>
+<p><span class="figure-number">Figure 12: </span>frijoles con palabras</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/full_moonie.png" alt="full moon image" width="500" title="full moon" />
+</p>
+<p><span class="figure-number">Figure 13: </span>full moon</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/epi_cell.png" alt="epithelial cell image" width="500" title="epithelial cell" />
+</p>
+<p><span class="figure-number">Figure 14: </span>epithelial cell</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/grumpy_on_couch.png" alt="grumpy on couch image" width="500" title="grumpy on couch" />
+</p>
+<p><span class="figure-number">Figure 15: </span>grumpy on couch</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/i_just_like_the_way_u_move.png" alt="i just like the way you move image" width="500" title="i just like the way you move" />
+</p>
+<p><span class="figure-number">Figure 16: </span>i just like the way you move</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/repito_con_color.png" alt="repito con color image" width="500" title="repito con color" />
+</p>
+<p><span class="figure-number">Figure 17: </span>repito con color</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/maraca.gif" alt="y mis hombros son un par de maracas que besa el sol image" width="500" title="y mis hombros son un par de maracas que besa el sol" />
+</p>
+<p><span class="figure-number">Figure 18: </span>y mis hombros son un par de maracas que besa el sol</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/dendritic.png" alt="inactive dendritic image" width="500" title="inactive dendritic cell" />
+</p>
+<p><span class="figure-number">Figure 19: </span>inactive dendritic cell</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/way_u_wear_ur_clothes.png" alt="the way you wear your clothes image" width="500" title="the way you wear your clothes" />
+</p>
+<p><span class="figure-number">Figure 20: </span>the way you wear your clothes</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/mood_for_love.png" alt="mood for love image" width="500" title="mood for love" />
+</p>
+<p><span class="figure-number">Figure 21: </span>mood for love</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/falling_beans.gif" alt="falling frijoles image" width="500" title="falling frijoles" />
+</p>
+<p><span class="figure-number">Figure 22: </span>falling frijoles</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/monocyte_infected.png" alt="infected monocyte image" width="500" title="infected monocyte" />
+</p>
+<p><span class="figure-number">Figure 23: </span>infected monocyte</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/colors/octo_garden.png" alt="octopus's garden image" width="500" title="octopus's garden" />
+</p>
+<p><span class="figure-number">Figure 24: </span>octopus's garden</p>
 </div>
 </div>
 </div>
+
 
 
 <div id="outline-container-orgdd70703" class="outline-2">
@@ -340,9 +436,37 @@ This is just some text.
 <div class="outline-text-2" id="text-orgdd70703">
 
 <div class="figure">
-<p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" title="Jorge again!" align="right" />
+<p><img src="./pictures/phrases/excuse_me.png" alt="excuse me image" width="500" title="excuse me" />
 </p>
-<p><span class="figure-number">Figure 11: </span>Me again but sliding to the right&#x2026;</p>
+<p><span class="figure-number">Figure 25: </span>excuse me</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/phrases/that_is_fun-ny.png" alt="that is fun-ny! image" width="500" title="that is fun-ny!" />
+</p>
+<p><span class="figure-number">Figure 26: </span>that is fun-ny!</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/phrases/hmmmm.png" alt="hmmmm image" width="500" title="hmmmm" />
+</p>
+<p><span class="figure-number">Figure 27: </span>hmmmm</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/phrases/no_worries.png" alt="no worries image" width="500" titleno="worries" />
+</p>
+<p><span class="figure-number">Figure 28: </span>no worries</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/phrases/hmmmm_maybe.png" alt="hmmmm maybe image" width="500" title="hmmmm maybe" />
+</p>
+<p><span class="figure-number">Figure 29: </span>hmmmm maybe</p>
 </div>
 </div>
 </div>
@@ -354,7 +478,7 @@ This is just some text.
 <div class="figure">
 <p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" title="Jorge again!" align="right" />
 </p>
-<p><span class="figure-number">Figure 12: </span>Me again but sliding to the right&#x2026;</p>
+<p><span class="figure-number">Figure 30: </span>Me again but sliding to the right&#x2026;</p>
 </div>
 </div>
 </div>
@@ -370,28 +494,21 @@ This is just some text.
 <div class="figure">
 <p><img src="./pictures/way_u_wear_ur_clothes.png" alt="jorge image" title="Jorge" />
 </p>
-<p><span class="figure-number">Figure 13: </span>Me</p>
+<p><span class="figure-number">Figure 31: </span>Me</p>
 </div>
 
 
 <div class="figure">
 <p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" title="Jorge again!" align="right" />
 </p>
-<p><span class="figure-number">Figure 14: </span>Me again but sliding to the right&#x2026;</p>
-</div>
-
-
-<div class="figure">
-<p><img src="./pictures/hold_on.jpg" alt="hold_on.jpg" />
-</p>
-<p><span class="figure-number">Figure 15: </span>and a squirrel telling you to Hold on!!!</p>
+<p><span class="figure-number">Figure 32: </span>Me again but sliding to the right&#x2026;</p>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Josephine Ankrah</p>
-<p class="date">Created: 2019-08-09 Fri 09:53</p>
+<p class="date">Created: 2019-08-09 Fri 10:23</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
