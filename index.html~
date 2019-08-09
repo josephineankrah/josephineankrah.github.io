@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-08-09 Fri 10:23 -->
+<!-- 2019-08-09 Fri 10:28 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Josephine Ankrah</title>
@@ -387,7 +387,7 @@ This is just some text.
 
 
 <div class="figure">
-<p><img src="./pictures/colors/dendritic.png" alt="inactive dendritic image" width="500" title="inactive dendritic cell" />
+<p><img src="./pictures/colors/dentritic.png" alt="inactive dendritic image" width="500" title="inactive dendritic cell" />
 </p>
 <p><span class="figure-number">Figure 19: </span>inactive dendritic cell</p>
 </div>
@@ -457,28 +457,43 @@ This is just some text.
 
 
 <div class="figure">
+<p><img src="./pictures/phrases/red_sauce.png" alt="red sauce image" width="500" title="red sauce" />
+</p>
+<p><span class="figure-number">Figure 28: </span>red sauce</p>
+</div>
+
+
+<div class="figure">
 <p><img src="./pictures/phrases/no_worries.png" alt="no worries image" width="500" titleno="worries" />
 </p>
-<p><span class="figure-number">Figure 28: </span>no worries</p>
+<p><span class="figure-number">Figure 29: </span>no worries</p>
 </div>
 
 
 <div class="figure">
 <p><img src="./pictures/phrases/hmmmm_maybe.png" alt="hmmmm maybe image" width="500" title="hmmmm maybe" />
 </p>
-<p><span class="figure-number">Figure 29: </span>hmmmm maybe</p>
+<p><span class="figure-number">Figure 30: </span>hmmmm maybe</p>
+</div>
+
+
+<div class="figure">
+<p><img src="./pictures/phrases/what_u_doing.png" alt="what u doing? image" width="500" title="what u doing?" />
+</p>
+<p><span class="figure-number">Figure 31: </span>what u doing?</p>
 </div>
 </div>
 </div>
+
 
 <div id="outline-container-orgeb9eec7" class="outline-2">
 <h2 id="orgeb9eec7">weekly feel goods</h2>
 <div class="outline-text-2" id="text-orgeb9eec7">
 
 <div class="figure">
-<p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" title="Jorge again!" align="right" />
+<p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" width="500" title="Jorge again!" align="right" />
 </p>
-<p><span class="figure-number">Figure 30: </span>Me again but sliding to the right&#x2026;</p>
+<p><span class="figure-number">Figure 32: </span>Me again but sliding to the right&#x2026;</p>
 </div>
 </div>
 </div>
@@ -492,23 +507,23 @@ This is just some text.
 
 
 <div class="figure">
-<p><img src="./pictures/way_u_wear_ur_clothes.png" alt="jorge image" title="Jorge" />
+<p><img src="./pictures/way_u_wear_ur_clothes.png" alt="jorge image" width="500" title="Jorge" />
 </p>
-<p><span class="figure-number">Figure 31: </span>Me</p>
+<p><span class="figure-number">Figure 33: </span>Me</p>
 </div>
 
 
 <div class="figure">
-<p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" title="Jorge again!" align="right" />
+<p><img src="./pictures/i_just_like_the_way_u_move.png" alt="jorge image" width="500" title="Jorge again!" align="right" />
 </p>
-<p><span class="figure-number">Figure 32: </span>Me again but sliding to the right&#x2026;</p>
+<p><span class="figure-number">Figure 34: </span>Me again but sliding to the right&#x2026;</p>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Josephine Ankrah</p>
-<p class="date">Created: 2019-08-09 Fri 10:23</p>
+<p class="date">Created: 2019-08-09 Fri 10:28</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
