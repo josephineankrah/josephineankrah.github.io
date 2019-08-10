@@ -57,6 +57,7 @@
   }
 
   .title {
+      display: bloc;
       color: #990000;
       padding-bottom: 7px;
       margin-bottom: 20px;
