@@ -21,3 +21,6 @@ div.desc {
   text-align: center;
 }
 
+.figure-number {
+    display: none;
+}
