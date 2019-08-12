@@ -1,616 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
-<!-- 2019-08-10 Sat 18:02 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Josephine Ankrah</title>
-<meta name="generator" content="Org mode" />
-<meta name="author" content="Josephine Ankrah" />
-<meta name="description" content="Josie's website"
- />
-<meta name="keywords" content="art, ankrah" />
 <style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
-
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
+.knitr .inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.rimage .left {
+  text-align: left;
+}
+.rimage .right {
+  text-align: right;
+}
+.rimage .center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
 </style>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" type="text/css" href="extra_styling.css"/>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
+<title>Josephine Ankrah</title>
+<style>
 
 
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
+guide {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 20%;
+background-color: pink;
+height: 100%;
+position: fixed;
+overflow: auto;
+}
+
+li a {
+display: block;
+color: black;
+padding-top: 8px 16px;
+}
+
+@media screen and (max-width: 550px) {
+guide {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: pink;
+height: auto;
+position: fixed;
+}
+
+li a {
+float: left;
+padding: 15px;
+}
+}
+
+@media screen and (max-width: 400px) {
+guide {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: pink;
+height: auto;
+position: fixed;
+}
+
+li a {
+text-align: center;
+float: none;
+padding: 15px;
+}
+}
+
+
+images {
+display: block
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+position: absolute;
+top: 100px;
+left: 20%;
+}
+
+body {
+    margin: 0px;
+    font-family: helvetica;
+    text-align: justify;
+    font-size: 10pt;
+    padding: 0px;
+    line-height: 1.2em;
+}
+  
+
+  
+</style>
+
 </head>
+
 <body>
-<div id="content">
-<h1 class="title">Josephine Ankrah</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org190f96d">lines</a></li>
-<li><a href="#orgf3a482c">colors</a></li>
-<li><a href="#orgdd70703">phrases</a></li>
-<li><a href="#orgeb9eec7">weekly feel goods</a></li>
-<li><a href="#orge4a562c">contact</a></li>
-</ul>
-</div>
-</div>
 
 
+<guide>
+<li><a href="#Josephine Ankrah">Josephine Ankrah</a></li>
+<li><a href="#lines">lines</a></li>
+<li><a href="#colors">colors</a></li>
+<li><a href="#phrases">phrases</a></li>
+</guide>
 
-<div id="outline-container-org190f96d" class="outline-2">
-<h2 id="org190f96d">lines</h2>
-<div class="outline-text-2" id="text-org190f96d">
-<div class="gallery">
 
-<div class="figure">
-<p><img src="./pictures/lines/ankles.png" alt="ankles image" width="500" title="ankles" />
-</p>
-<p><span class="figure-number">Figure 1: </span>ankles</p>
-</div>
+<images>
+<img src="pictures/lines/ankles.png" alt="my ankles" height = "500">
+<img src="pictures/lines/hoola.png" alt="hoola" height = "500">
+<img src="pictures/colors/bar.png" alt="bar" height = "500">
+<img src="pictures/lines/ankles.png" alt="my ankles" height = "500">
+</images>
 
-</div>
 
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/comfort.png" alt="comfort image" width="500" title="comfort" />
-</p>
-<p><span class="figure-number">Figure 2: </span>comfort</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/cueva.png" alt="cueva image" width="500" title="cueva" />
-</p>
-<p><span class="figure-number">Figure 3: </span>cueva</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/falling.png" alt="falling image" width="500" title="falling" />
-</p>
-<p><span class="figure-number">Figure 4: </span>falling</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/hoola.png" alt="hoola image" width="500" title="hoola" />
-</p>
-<p><span class="figure-number">Figure 5: </span>hoola</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/maine.png" alt="maine image" width="500" title="maine" />
-</p>
-<p><span class="figure-number">Figure 6: </span>maine</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/rooster.png" alt="rooster image" width="500" title="rooster" />
-</p>
-<p><span class="figure-number">Figure 7: </span>rooster</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/sunflower.png" alt="sunflower image" width="500" title="sunflower" />
-</p>
-<p><span class="figure-number">Figure 8: </span>sunflower</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/lines/wavey.png" alt="wavey image" width="500" title="wavey" />
-</p>
-<p><span class="figure-number">Figure 9: </span>wavey</p>
-</div>
-
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgf3a482c" class="outline-2">
-<h2 id="orgf3a482c">colors</h2>
-<div class="outline-text-2" id="text-orgf3a482c">
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/bar.png" alt="bar image" width="500" title="bar" />
-</p>
-<p><span class="figure-number">Figure 10: </span>bar</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/dendritic_active.png" alt="active dendritic cell image" width="500" title="active dendritic cell" />
-</p>
-<p><span class="figure-number">Figure 11: </span>active dendritic cell</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/frijoles_con_palabras.png" alt="frijoles con palabras image" width="500" title="frijoles con palabras" />
-</p>
-<p><span class="figure-number">Figure 12: </span>frijoles con palabras</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/full_moonie.png" alt="full moon image" width="500" title="full moon" />
-</p>
-<p><span class="figure-number">Figure 13: </span>full moon</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/epi_cell.png" alt="epithelial cell image" width="500" title="epithelial cell" />
-</p>
-<p><span class="figure-number">Figure 14: </span>epithelial cell</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/grumpy_on_couch.png" alt="grumpy on couch image" width="500" title="grumpy on couch" />
-</p>
-<p><span class="figure-number">Figure 15: </span>grumpy on couch</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/i_just_like_the_way_u_move.png" alt="i just like the way you move image" width="500" title="i just like the way you move" />
-</p>
-<p><span class="figure-number">Figure 16: </span>i just like the way you move</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/repito_con_color.png" alt="repito con color image" width="500" title="repito con color" />
-</p>
-<p><span class="figure-number">Figure 17: </span>repito con color</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/maraca.gif" alt="y mis hombros son un par de maracas que besa el sol image" width="500" title="y mis hombros son un par de maracas que besa el sol" />
-</p>
-<p><span class="figure-number">Figure 18: </span>y mis hombros son un par de maracas que besa el sol</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/dentritic.png" alt="inactive dendritic image" width="500" title="inactive dendritic cell" />
-</p>
-<p><span class="figure-number">Figure 19: </span>inactive dendritic cell</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/way_u_wear_ur_clothes.png" alt="the way you wear your clothes image" width="500" title="the way you wear your clothes" />
-</p>
-<p><span class="figure-number">Figure 20: </span>the way you wear your clothes</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/mood_for_love.png" alt="mood for love image" width="500" title="mood for love" />
-</p>
-<p><span class="figure-number">Figure 21: </span>mood for love</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/falling_beans.gif" alt="falling frijoles image" width="500" title="falling frijoles" />
-</p>
-<p><span class="figure-number">Figure 22: </span>falling frijoles</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/monocyte_infected.png" alt="infected monocyte image" width="500" title="infected monocyte" />
-</p>
-<p><span class="figure-number">Figure 23: </span>infected monocyte</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/colors/octo_garden.png" alt="octopus's garden image" width="500" title="octopus's garden" />
-</p>
-<p><span class="figure-number">Figure 24: </span>octopus's garden</p>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div id="outline-container-orgdd70703" class="outline-2">
-<h2 id="orgdd70703">phrases</h2>
-<div class="outline-text-2" id="text-orgdd70703">
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/excuse_me.png" alt="excuse me image" width="500" title="excuse me" />
-</p>
-<p><span class="figure-number">Figure 25: </span>excuse me</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/that_is_fun-ny.png" alt="that is fun-ny! image" width="500" title="that is fun-ny!" />
-</p>
-<p><span class="figure-number">Figure 26: </span>that is fun-ny!</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/hmmmm.png" alt="hmmmm image" width="500" title="hmmmm" />
-</p>
-<p><span class="figure-number">Figure 27: </span>hmmmm</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/red_sauce.png" alt="red sauce image" width="500" title="red sauce" />
-</p>
-<p><span class="figure-number">Figure 28: </span>red sauce</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/no_worries.png" alt="no worries image" width="500" titleno="worries" />
-</p>
-<p><span class="figure-number">Figure 29: </span>no worries</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/hmmmm_maybe.png" alt="hmmmm maybe image" width="500" title="hmmmm maybe" />
-</p>
-<p><span class="figure-number">Figure 30: </span>hmmmm maybe</p>
-</div>
-
-</div>
-
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/phrases/what_u_doing.png" alt="what u doing? image" width="500" title="what u doing?" />
-</p>
-<p><span class="figure-number">Figure 31: </span>what u doing?</p>
-</div>
-
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgeb9eec7" class="outline-2">
-<h2 id="orgeb9eec7">weekly feel goods</h2>
-<div class="outline-text-2" id="text-orgeb9eec7">
-<div class="gallery">
-
-<div class="figure">
-<p><img src="./pictures/weekly_feel_goods/wk1_1.png" alt="week one image" width="500" title="week one" />
-</p>
-<p><span class="figure-number">Figure 32: </span>week one - my identity as a bike rider was validated by random stranger</p>
-</div>
-
-</div>
-</div>
-</div>
-
-<div id="outline-container-orge4a562c" class="outline-2">
-<h2 id="orge4a562c">contact</h2>
-<div class="outline-text-2" id="text-orge4a562c">
-<p>
-<a href="mailto:ankrah.josephine@gmail.com">email me</a>
-</p>
-
-
-<div class="figure">
-<p><img src="./pictures/headshot/headshot_2019.jpg" alt="Josephine Ankrah  image" width="500" title="Josephine Ankrah" />
-</p>
-<p><span class="figure-number">Figure 33: </span>Me</p>
-</div>
-</div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="author">Author: Josephine Ankrah</p>
-<p class="date">Created: 2019-08-10 Sat 18:02</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
 </body>
 </html>
