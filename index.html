@@ -73,22 +73,32 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 width: 20%;
-background-color: lightgrey; opacity: 0.5;
+background-color: #24243A; opacity: 0.5;
 border-right-style: solid;
-border-right-color: grey;
+border-right-color: #D6D6FF;
 border-right-width: 1px;
 height: 100%;
 position: fixed;
 overflow: auto;
-font-size: 16px;
-line-height: 20px;
+font-size: 17px;
+line-height: 30px;
 }
 
 li a {
 display: block;
-color: black;
+color: white;
 padding-top: 8px 16px;
+text-decoration: none;
 }
+
+li a:visited {
+  color: green;
+}
+
+li a:hover {
+  color: #D6D6FF;
+}
+
 
 @media screen and (max-width: 700px) {
 guide {
@@ -96,7 +106,9 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 width: 100%;
-background-color: pink;
+border-bottom-style: solid;
+border-bottom-color: #D6D6FF;
+border-bottom-width: 1px;
 height: auto;
 position: fixed;
 }
@@ -107,15 +119,18 @@ padding: 15px;
 }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 660px) {
 guide {
 list-style-type: none;
 margin: 0;
 padding: 0;
 width: 100%;
-background-color: pink;
+border-bottom-style: solid;
+border-bottom-color: #D6D6FF;
+border-bottom-width: 1px;
 height: auto;
 position: fixed;
+line-height: 15px;
 }
 
 li a {
@@ -134,11 +149,15 @@ white-space: nowrap;
 position: absolute;
 top: 275px;
 left: 20%;
+width: 100%
+height auto;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 body {
     margin: 0px;
-    font-family: helvetica;
+    font-family: helvetica-light;
     text-align: justify;
     font-size: 10pt;
     padding: 0px;
@@ -159,11 +178,13 @@ body {
 <li><a href="#lines">lines</a></li>
 <li><a href="#colors">colors</a></li>
 <li><a href="#phrases">phrases</a></li>
-<li><a href="#phrases">weekly feel goods</a></li>
+<li><a href="#weekly_feel_goods">weekly feel goods</a></li>
+<li><a href="mailto:ankrah.josephine@gmail.com">contact</a></li>
 </guide>
 
 
 <images>
+  
 <img src="pictures/lines/ankles.png" alt="ankles" height = "500">
 <img src="pictures/lines/comfort.png" alt="comfort" height = "500">
 <img src="pictures/lines/cueva.png" alt="cueva" height = "500">
@@ -199,6 +220,7 @@ body {
 <img src="pictures/phrases/that_is_fun-ny.png" alt="that is fun-ny!" height = "500">
 <img src="pictures/phrases/what_u_doing.png" alt="what u doing?" height = "500">
 <img src="pictures/weekly_feel_goods/wk1_1.png" alt="i am a bike rider" height = "500">
+
 </images>
 
 
